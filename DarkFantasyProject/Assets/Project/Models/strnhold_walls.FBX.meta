@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: cec6136b3f0ad944389e62e5676b0c6c
+timeCreated: 1517412485
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Brick001
+    100002: Brick002
+    100004: Brick003
+    100006: Brick004
+    100008: Brick005
+    100010: Brick006
+    100012: Brick007
+    100014: Pillar001
+    100016: Pillar002
+    100018: Pillar003
+    100020: //RootNode
+    100022: Stronghold_wall001
+    100024: Stronghold_wall002
+    100026: Stronghold_wall_CIN
+    100028: Stronghold_wall_COUT
+    100030: Stronghold_wall_diagonal
+    400000: Brick001
+    400002: Brick002
+    400004: Brick003
+    400006: Brick004
+    400008: Brick005
+    400010: Brick006
+    400012: Brick007
+    400014: Pillar001
+    400016: Pillar002
+    400018: Pillar003
+    400020: //RootNode
+    400022: Stronghold_wall001
+    400024: Stronghold_wall002
+    400026: Stronghold_wall_CIN
+    400028: Stronghold_wall_COUT
+    400030: Stronghold_wall_diagonal
+    2100000: 01 - Default
+    2300000: Brick001
+    2300002: Brick002
+    2300004: Brick003
+    2300006: Brick004
+    2300008: Brick005
+    2300010: Brick006
+    2300012: Brick007
+    2300014: Pillar001
+    2300016: Pillar002
+    2300018: Pillar003
+    2300020: Stronghold_wall001
+    2300022: Stronghold_wall002
+    2300024: Stronghold_wall_CIN
+    2300026: Stronghold_wall_COUT
+    2300028: Stronghold_wall_diagonal
+    3300000: Brick001
+    3300002: Brick002
+    3300004: Brick003
+    3300006: Brick004
+    3300008: Brick005
+    3300010: Brick006
+    3300012: Brick007
+    3300014: Pillar001
+    3300016: Pillar002
+    3300018: Pillar003
+    3300020: Stronghold_wall001
+    3300022: Stronghold_wall002
+    3300024: Stronghold_wall_CIN
+    3300026: Stronghold_wall_COUT
+    3300028: Stronghold_wall_diagonal
+    4300000: Stronghold_wall001
+    4300002: Stronghold_wall002
+    4300004: Pillar002
+    4300006: Brick006
+    4300008: Brick007
+    4300010: Brick005
+    4300012: Brick004
+    4300014: Brick003
+    4300016: Stronghold_wall_COUT
+    4300018: Pillar001
+    4300020: Stronghold_wall_CIN
+    4300022: Brick001
+    4300024: Brick002
+    4300026: Stronghold_wall_diagonal
+    4300028: Pillar003
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
