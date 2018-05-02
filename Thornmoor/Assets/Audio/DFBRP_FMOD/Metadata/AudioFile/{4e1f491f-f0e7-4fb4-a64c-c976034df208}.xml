@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{4e1f491f-f0e7-4fb4-a64c-c976034df208}">
+        <property name="assetPath">
+            <value>step_gravel_3.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.47115646258503402</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{75ba10f3-1abb-46dc-bf78-0ed722a8f7ae}</destination>
+        </relationship>
+    </object>
+</objects>

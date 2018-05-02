@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{2d8446ba-8b31-4fcf-b578-a7f4efbf4811}">
+        <property name="assetPath">
+            <value>step_orc_10.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.45466666666666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{75ba10f3-1abb-46dc-bf78-0ed722a8f7ae}</destination>
+        </relationship>
+    </object>
+</objects>

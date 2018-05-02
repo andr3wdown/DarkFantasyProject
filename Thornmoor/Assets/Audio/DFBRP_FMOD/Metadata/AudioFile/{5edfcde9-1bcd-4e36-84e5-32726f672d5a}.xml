@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{5edfcde9-1bcd-4e36-84e5-32726f672d5a}">
+        <property name="assetPath">
+            <value>hit_metal_blunt_M_3.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.33265306122448979</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{75ba10f3-1abb-46dc-bf78-0ed722a8f7ae}</destination>
+        </relationship>
+    </object>
+</objects>
