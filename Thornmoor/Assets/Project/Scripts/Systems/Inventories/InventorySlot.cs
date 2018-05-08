@@ -43,11 +43,11 @@ public class InventorySlot : MonoBehaviour
         Transform last = Character.handHolder.GetChild(0);
         if (last != null)
         {
-            Inventory.instance.AddItem(last.GetComponent<ItemPickup>().item);
+            //Inventory.instance.AddItem(last.GetComponent<ItemPickup>().item);
         }
         Destroy(last.gameObject);
 
-        
+        Inventory.instance.AddEquipment(item);
         GameObject go = Instantiate(item.scenePrefab, Character.handHolder.position, Quaternion.Euler(new Vector3(Character.handHolder.rotation.eulerAngles.x + 90, Character.handHolder.rotation.eulerAngles.y, Character.handHolder.rotation.eulerAngles.z)));
         go.GetComponent<ItemPickup>().Prepare();
         go.transform.parent = Character.handHolder;

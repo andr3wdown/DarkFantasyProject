@@ -9,11 +9,12 @@ public class HPObject : MonoBehaviour
     public string thisHittedSound = "event:/hit_generic";
     float nextSoundTime = 0;
     bool init = false;
-    public void TakeHP(int amount, bool deathMessage = false, bool hitMessage = false, string hitType = "blade")
+    public void TakeHP(int amount, bool deathMessage = false, bool hitMessage = false, string hitType = "blade", bool exp = false)
     {
         if (!init)
         {
             maxHp = hp;
+            
         }
         hp -= amount;
         if (hitMessage)
@@ -24,6 +25,11 @@ public class HPObject : MonoBehaviour
         {
             if (deathMessage)
             {
+                if (exp)
+                {
+                    Inventory.instance.stats.AddExp(GetComponent<Enemy>().gainedExp);
+                }
+               
                 gameObject.SendMessage("Dead");
             }
             hp = 0; 
@@ -42,6 +48,7 @@ public class HPObject : MonoBehaviour
         }
 
         FMODUnity.RuntimeManager.PlayOneShot(thisHittedSound, transform.position);
+       
     }
     public void HealHP(int amount)
     {

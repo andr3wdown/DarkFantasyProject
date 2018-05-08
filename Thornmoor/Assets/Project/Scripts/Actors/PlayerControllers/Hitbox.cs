@@ -23,9 +23,11 @@ public class Hitbox : MonoBehaviour
                 toFrom = (other.transform.position - transform.position).normalized;
             }
              
+            
             other.GetComponent<Enemy>().TriggerKnockback(toFrom, knockBack);
-            other.GetComponent<HPObject>().TakeHP(damage, true, false, hitType);
+            other.GetComponent<HPObject>().TakeHP(damage, true, false, hitType, exp: true);                 
         }
+
     }
 
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Types;
 
 public class Inventory : MonoBehaviour
 {
@@ -15,10 +16,13 @@ public class Inventory : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        instance = this;
+        instance = this;    
     }
     #endregion
-
+    private void Start()
+    {
+        AddEquipment(Character.handHolder.GetChild(0).GetComponent<ItemPickup>().item);
+    }
     public int[] materials;
     public string[] materialNames;
     public Text[] materialDisplayers;
@@ -29,7 +33,7 @@ public class Inventory : MonoBehaviour
 
     public delegate void OnInvChanged();
     public OnInvChanged invChangeCallback;
-
+    public Item[] equipment = new Item[5];
 
 
     public void AddMaterial(int i, int amount)
@@ -61,5 +65,17 @@ public class Inventory : MonoBehaviour
             invChangeCallback.Invoke();
         
     }
-	
+	public void AddEquipment(Item item)
+    {
+        int index = (int)item.equipmentType;
+        if(equipment[index] != null)
+        {
+            AddItem(equipment[index]);
+        }
+        equipment[index] = item;
+        if(invChangeCallback != null)
+        {
+            invChangeCallback.Invoke();
+        }
+    }
 }

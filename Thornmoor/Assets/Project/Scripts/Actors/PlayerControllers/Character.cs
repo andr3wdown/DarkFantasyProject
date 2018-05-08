@@ -46,7 +46,8 @@ public class Character : MonoBehaviour
     private bool knocking = false;
     private Animator anim;
     private Cooldown targetingCooldown = new Cooldown(0.75f);
-    private Inventory inventory;
+    [HideInInspector]
+    public Inventory inventory;
 
     //static variables
     public static Vector3 currentPosition;

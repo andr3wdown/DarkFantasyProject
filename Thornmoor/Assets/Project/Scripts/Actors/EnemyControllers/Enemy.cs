@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 
     public static List<Enemy> attackingEnemies = new List<Enemy>();
     [Header("General Properties")]
+    public int gainedExp;
     public Transform target;
     protected Rigidbody rb;
     public virtual void Start()
